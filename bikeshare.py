@@ -186,6 +186,7 @@ def user_stats(df):
 
 
 def main():
+    # The while loop condition is set True to be run continously till the user enter NO
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
