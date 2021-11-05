@@ -1,3 +1,6 @@
+#################################################
+# This is my Udacity Project for Python Lesson  #
+#################################################
 import time
 import pandas as pd
 import numpy as np
