@@ -193,6 +193,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
+        # Initialize explore_data variable to 'yes'
         explore_data = 'yes'
         index = 0
         while explore_data == 'yes':
