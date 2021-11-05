@@ -195,6 +195,7 @@ def main():
 
         # Initialize explore_data variable to 'yes'
         explore_data = 'yes'
+        # Initialize indes variable to 0        
         index = 0
         while explore_data == 'yes':
             explore_data = input('\nWould you like to continue with exploring 05 raw of data? Enter yes or no.\n')
